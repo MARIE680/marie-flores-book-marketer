@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apply to Work With Marie — Marie Flores Book Marketing</title>
+<meta name="description" content="Apply to work with Marie Flores. Tell her about your book, your current marketing, and your goals.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site">
+  <div class="wrap nav-row">
+    <a href="index.html" class="brand">MARIE FLORES<span>BOOK MARKETING</span></a>
+    <nav class="primary" id="primaryNav" aria-label="Primary">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="framework.html">Framework</a>
+      <a href="results.html">Results</a>
+      <a href="resources.html">Resources</a>
+    </nav>
+    <div class="nav-ctas">
+      <a href="free-audit.html" class="btn btn-ghost btn-small">Free Amazon Audit</a>
+      <a href="apply.html" class="btn btn-primary btn-small">Apply to Work With Me</a>
+    </div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+      <svg width="26" height="20" viewBox="0 0 26 20"><rect width="26" height="2" fill="currentColor"/><rect y="9" width="26" height="2" fill="currentColor"/><rect y="18" width="26" height="2" fill="currentColor"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-panel" id="mobilePanel">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="services.html">Services</a>
+  <a href="framework.html">Framework</a>
+  <a href="results.html">Results</a>
+  <a href="resources.html">Resources</a>
+  <a href="contact.html">Contact</a>
+  <div class="mobile-cta-row">
+    <a href="free-audit.html" class="btn btn-ghost">Free Amazon Audit</a>
+    <a href="apply.html" class="btn btn-primary">Apply to Work With Me</a>
+  </div>
+</div>
+
+<main id="main">
+
+  <div class="wrap crumb"><a href="index.html">Home</a> &nbsp;/&nbsp; <span>Apply to Work With Marie</span></div>
+  <section class="page-hero"><div class="wrap">
+    <div class="kicker">Apply to Work With Marie</div>
+    <h1>Let&rsquo;s Talk About Your Book.</h1>
+    <p class="dek">Tell me about your book, your current marketing situation, and what you&rsquo;re trying to accomplish.</p>
+  </div></section>
+  <section class="block"><div class="wrap"><div id="applyFormWrap"><form class="appform" id="applyForm" action="https://formspree.io/f/mbgjqaye" method="POST" target="_blank">
+    <input type="hidden" name="_subject" value="New Application to Work With Marie">
+    <input type="hidden" name="form_type" value="Apply to Work With Marie">
+    <div class="step-indicator" id="stepIndicator"></div>
+
+    <fieldset class="step-fieldset active" data-step="1">
+      <div class="step-label">Step 1 of 5. About you</div>
+      <div class="field"><label for="ap_name">Name</label><input id="ap_name" name="Name" type="text" required></div>
+      <div class="field"><label for="ap_email">Email</label><input id="ap_email" name="Email" type="email" required></div>
+      <div class="field"><label for="ap_country">Country</label><input id="ap_country" name="Country" type="text" required></div>
+      <div class="field"><label for="ap_website">Website (optional)</label><input id="ap_website" name="Website" type="url"></div>
+    </fieldset>
+
+    <fieldset class="step-fieldset" data-step="2">
+      <div class="step-label">Step 2 of 5. About your book</div>
+      <div class="field"><label for="ap_title">Book title</label><input id="ap_title" name="Book Title" type="text" required></div>
+      <div class="field"><label for="ap_amzurl">Amazon URL</label><input id="ap_amzurl" name="Amazon URL" type="url"></div>
+      <div class="field"><label for="ap_genre">Genre</label><input id="ap_genre" name="Genre" type="text" required></div>
+      <div class="field"><label for="ap_format">Format</label><input id="ap_format" name="Format" type="text" placeholder="Ebook, print, audiobook..."></div>
+      <div class="field"><label for="ap_pubstatus">Publication status</label><select id="ap_pubstatus" name="Publication Status" required>
+        <option value="">Select one</option><option>Published</option><option>Upcoming</option><option>Still writing</option>
+      </select></div>
+      <div class="field"><label for="ap_pubdate">Publication date (if known)</label><input id="ap_pubdate" name="Publication Date" type="date"></div>
+      <div class="field"><label for="ap_series">Series or standalone</label><select id="ap_series" name="Series or Standalone">
+        <option value="">Select one</option><option>Series</option><option>Standalone</option>
+      </select></div>
+    </fieldset>
+
+    <fieldset class="step-fieldset" data-step="3">
+      <div class="step-label">Step 3 of 5. Your marketing</div>
+      <div class="field"><label for="ap_current">Current marketing activities</label><textarea id="ap_current" name="Current Marketing"></textarea></div>
+      <div class="field"><label for="ap_challenge">Biggest challenge</label><textarea id="ap_challenge" name="Biggest Challenge" required></textarea></div>
+      <div class="field"><label for="ap_goals">Marketing goals</label><textarea id="ap_goals" name="Marketing Goals" required></textarea></div>
+      <div class="field"><label for="ap_platforms">Platforms currently used</label><input id="ap_platforms" name="Platforms Used" type="text"></div>
+      <div class="field"><label for="ap_adexp">Previous advertising experience</label><textarea id="ap_adexp" name="Advertising Experience"></textarea></div>
+    </fieldset>
+
+    <fieldset class="step-fieldset" data-step="4">
+      <div class="step-label">Step 4 of 5. Your project</div>
+      <div class="field"><label>What service are you interested in?</label><div class="radio-grid"><label class="opt"><input type="radio" name="Service Interest" value="Amazon Discovery" required>Amazon Discovery</label><label class="opt"><input type="radio" name="Service Interest" value="Book Launch" >Book Launch</label><label class="opt"><input type="radio" name="Service Interest" value="Reader Discovery" >Reader Discovery</label><label class="opt"><input type="radio" name="Service Interest" value="Author Growth" >Author Growth</label><label class="opt"><input type="radio" name="Service Interest" value="Ongoing Marketing" >Ongoing Marketing</label><label class="opt"><input type="radio" name="Service Interest" value="Not sure" >Not sure</label></div></div>
+    </fieldset>
+
+    <fieldset class="step-fieldset" data-step="5">
+      <div class="step-label">Step 5 of 5. Investment</div>
+      <div class="field"><label>Comfortable budget range</label><div class="radio-grid"><label class="opt"><input type="radio" name="Investment Range" value="$500 to $1,000" required>$500 to $1,000</label><label class="opt"><input type="radio" name="Investment Range" value="$1,000 to $2,500" >$1,000 to $2,500</label><label class="opt"><input type="radio" name="Investment Range" value="$2,500 to $5,000" >$2,500 to $5,000</label><label class="opt"><input type="radio" name="Investment Range" value="$5,000 to $7,000+" >$5,000 to $7,000+</label><label class="opt"><input type="radio" name="Investment Range" value="Ongoing" >Ongoing</label></div></div>
+    </fieldset>
+
+    <div class="step-nav">
+      <button type="button" class="btn btn-ghost btn-small" id="apBack" style="visibility:hidden;">Back</button>
+      <button type="button" class="btn btn-primary btn-small" id="apNext">Next</button>
+      <button type="submit" class="btn btn-primary" id="apSubmit" style="display:none;">Submit Application</button>
+    </div>
+    <p class="form-note">Your application will be reviewed and Marie will get in touch shortly. This opens Formspree in a new tab to confirm it was received.</p>
+  </form></div></div></section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="fbrand">Marie Flores</div>
+        <p class="tag">Strategic book marketing for authors who want their books to be found, not just published. Amazon and Goodreads discoverability, reader growth, and multi-platform promotion.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="framework.html">Framework</a></li>
+          <li><a href="results.html">Results</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Work With Marie</h4>
+        <ul>
+          <li><a href="free-audit.html">Free Amazon Audit</a></li>
+          <li><a href="apply.html">Apply to Work With Me</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:mariet.floresbookpromotion@gmail.com">mariet.floresbookpromotion@gmail.com</a></li>
+          <li>Los Angeles, CA</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> Marie Flores Book Marketing. All rights reserved.</span>
+      <span>Discovery before promotion.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
